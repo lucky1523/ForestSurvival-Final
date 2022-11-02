@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/enemyDamage.mp3-1181a3f78ad4c6f1b495d32d6c4c327a.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/sfx/enemyDamage.mp3"
+dest_files=[ "res://.import/enemyDamage.mp3-1181a3f78ad4c6f1b495d32d6c4c327a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
