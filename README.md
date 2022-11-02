@@ -4,12 +4,13 @@
 </a>
 </p>
 
-This plugin is now supported in [Godot Extended Library Discord](https://discord.gg/JNrcucg), check out the [Godot Extended Library Project](https://github.com/godot-extended-libraries)!
+- Rodrigo Viladgut 51113
+- Luciano Paniagua 52334
 
 <img src="addons/github-integration/github-logo.png" align="left" width="64" height="64">
 
-# GitHub Integration
-A complete GitHub integration for your Godot Editor! Manage your project without even opening your browser.
+# Forest Survivor
+## Videojuego desarrollado en el motor gráfico de godot para la materia de Infografía.
 
 Author: *"Nicolo (fenix) Santilio"*  
 Version: *1.4.3*  
