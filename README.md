@@ -1,6 +1,6 @@
 
 
-- Rodrigo Viladgut 51113
+- Rodrigo Viladegut 51113
 - Luciano Paniagua 52334
 
 <img src="icon.png" align="left" width="64" height="64">
