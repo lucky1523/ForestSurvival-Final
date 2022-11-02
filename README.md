@@ -7,7 +7,7 @@
 - Rodrigo Viladgut 51113
 - Luciano Paniagua 52334
 
-<img src="addons/github-integration/github-logo.png" align="left" width="64" height="64">
+<img src="assets/art/background/BackgroundMenu.png" align="left" width="64" height="64">
 
 # Forest Survivor
 ## Videojuego desarrollado en el motor gráfico de godot para la materia de Infografía.
