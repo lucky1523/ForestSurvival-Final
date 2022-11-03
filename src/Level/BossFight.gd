@@ -10,8 +10,7 @@ func _physics_process(_delta):
 	var monedas = player.get_coins()
 	var saludPlayer = player.get_health()
 	#print((player.position - boss.position).length())
-	#print("Monedas: {monedas}" )
-	player.setCoins(0)
+
 	print("Monedas: " + str(monedas))
 	if (player.position - boss.position).length() < 200 :
 		if not boss._state == boss.State.mueto:

@@ -6,7 +6,7 @@ var hurt = false
 var dead = false
 var health = 5.0
 var coins = 00
-
+var coins_to_health=0
 onready var platform_detector = $PlatformDetector
 onready var shoot_timer = $ShootAnimation
 onready var gun = $Sprite/Gun
@@ -24,10 +24,11 @@ func get_coins():
 	return coins
 func addCoins():
 	coins+=1
-func setHealth(number):
-	health=number
-func setCoins(number):
-	coins=number
+	coins_to_health+=1
+	if coins_to_health ==5:
+		health+=1
+		coins_to_health=0
+
 func cooldown():
 	if cool_down_count>=30:
 		cool_down_count=0
@@ -53,8 +54,7 @@ func _physics_process(_delta):
 		if Input.is_action_just_pressed("shoot") and cool_down_count==0:
 			is_shooting = gun.shoot($Sprite.scale.x)
 			cool_down_count=1
-		if coins%5==0 and coins != 0:
-			setHealth(5)
+
 		if shoot_timer.is_stopped():
 			if is_shooting:
 				shoot_timer.start()
